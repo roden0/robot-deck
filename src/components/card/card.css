@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     background-color: #95dada;
-    border: 1px solid grey;
+    border: 1px solid rgb(11, 45, 58);
     border-radius: 5px;
     padding: 25px;
     cursor: pointer;
@@ -11,6 +11,7 @@
     transform: translateZ(0);
     transition: transform 0.25s ease-out;
     box-shadow: 3px 26px 43px -21px rgba(0,0,0,0.98);
+    text-align: center;
   }
   
   .card-container:hover {
@@ -18,7 +19,10 @@
   }
   
   img {
-    width: 12rem;
+    width: 40%;
+    border-radius: 80%;
+    border: .5rem solid rgb(146, 238, 230);
+    margin: 0 auto;
   }
 
   small {
